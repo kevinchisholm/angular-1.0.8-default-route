@@ -6,6 +6,14 @@ var myRouter = angular.module('mainRouter', []),
     configFunction = function ($routeProvider) {
     $routeProvider
 
+        //when there is no route requested
+        .when('/', {
+            templateUrl: 'message.html',
+            controller: function ($scope) {
+                $scope.message = 'Welcome to our Application!';
+            }
+        })
+
         //when the user clicks <a href="#hello">Hello</a>
         .when('/hello', {
             templateUrl: 'message.html',
@@ -22,11 +30,11 @@ var myRouter = angular.module('mainRouter', []),
             }
         })
 
+        //when the user requets a route that does not exist
         .otherwise({
-        redirectTo: '/',
         templateUrl: 'message.html',
         controller: function ($scope) {
-                $scope.message = 'Welcome!!';
+                $scope.message = 'No such route!';
             }
         });
     };
