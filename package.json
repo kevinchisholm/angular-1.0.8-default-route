@@ -1,0 +1,13 @@
+{
+  "name": "angular-1.0.8-default-route",
+  "version": "1.0.0",
+  "description": "Creating a Default Route in Angular 1.0.8",
+  "scripts": {
+    "start": "node web-server/app.js"
+  },
+  "author": "Kevin Chisholm",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.13.3"
+  }
+}
