@@ -1,9 +1,6 @@
-# angular-1.0.8-default-route
-Angular.js Basics: Creating a Default Route
+#Creating a Default Route in Angular 1.0.8
 
 [![Angular Logo](http://sub1.kevinchisholm.com/blog/images/angularjs-logo-small.png)](http://blog.kevinchisholm.com/angular/angular-js-basics-routes-part-iii-creating-a-default-route/)
-
-# TITLE
 
 ## Code Examples for my blog post: [Angular.js Basics: Routes Part III: Creating a Default Route](https://blog.kevinchisholm.com/angular/angular-js-basics-routes-part-iii-creating-a-default-route/).
 
